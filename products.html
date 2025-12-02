@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品中心 - 稳卓国际贸易有限公司</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 头部导航栏 -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="稳卓国际贸易有限公司">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="products.html">产品中心</a></li>
+                    <li><a href="cases.html">应用案例</a></li>
+                    <li><a href="brands.html">代理品牌</a></li>
+                    <li><a href="news.html">新闻中心</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </nav>
+            <div class="language-switch">
+                <select>
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                    <option value="ja">日本語</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- 产品分类 -->
+    <section class="products-section">
+        <div class="container">
+            <h1 class="section-title">产品中心</h1>
+            
+            <!-- 产品Banner -->
+            <div class="product-banner">
+                <div class="banner-slider">
+                    <!-- Banner 1 -->
+                    <div class="banner-slide active">
+                        <div class="banner-content">
+                            <h2>医疗级别弹性体材料</h2>
+                            <ul>
+                                <li>生物兼容测试报告</li>
+                                <li>皮肤过敏性测试</li>
+                                <li>细胞毒性测试</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Banner 2 -->
+                    <div class="banner-slide">
+                        <div class="banner-content">
+                            <h2>抗菌性塑料</h2>
+                            <p>颗粒包括最新的</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Banner 3 -->
+                    <div class="banner-slide">
+                        <div class="banner-content">
+                            <h2>抗静电塑料</h2>
+                            <p>可通过电阻率10的9次方欧母</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Banner 4 -->
+                    <div class="banner-slide">
+                        <div class="banner-content">
+                            <h2>阻燃级别材料</h2>
+                            <p>UL94 V0标准</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Banner控制按钮 -->
+                <div class="banner-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                
+                <!-- Banner指示点 -->
+                <div class="banner-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <div class="products-container">
+                <!-- 产品分类导航 -->
+                <div class="product-categories">
+                    <button class="category-btn active" data-category="all">全部产品</button>
+                    <button class="category-btn" data-category="engineering">工程塑料</button>
+                    <button class="category-btn" data-category="general">通用塑料</button>
+                    <button class="category-btn" data-category="elastomer">弹性体塑料</button>
+                    <button class="category-btn" data-category="special">特种材料</button>
+                    <button class="category-btn" data-category="degradable">可降解塑料</button>
+                </div>
+
+                <!-- 产品列表 -->
+                <div class="products-content">
+                    <div class="products-grid">
+                        <!-- 工程塑料 -->
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pc.jpg" alt="PC">
+                            </div>
+                            <div class="product-info">
+                                <h3>PC（聚碳酸酯）</h3>
+                                <p>高透明度、高冲击强度、耐热性好</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <!-- 可降解材料 -->
+                        <div class="product-item" data-category="degradable">
+                            <div class="product-image">
+                                <img src="images/products/pla.jpg" alt="PLA">
+                            </div>
+                            <div class="product-info">
+                                <h3>PLA（聚乳酸）</h3>
+                                <p>生物可降解材料，环保友好，适用于食品包装、一次性用品等领域</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/abs.jpg" alt="ABS">
+                            </div>
+                            <div class="product-info">
+                                <h3>ABS（丙烯腈-丁二烯-苯乙烯）</h3>
+                                <p>优异的机械性能、良好的加工性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <!-- 新增产品 -->
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/asa.jpg" alt="ASA">
+                            </div>
+                            <div class="product-info">
+                                <h3>ASA</h3>
+                                <p>优异的耐候性和抗紫外线性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/as.jpg" alt="AS">
+                            </div>
+                            <div class="product-info">
+                                <h3>AS(SAN)</h3>
+                                <p>高透明度、良好的耐热性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="elastomer">
+                            <div class="product-image">
+                                <img src="images/products/eva.jpg" alt="EVA">
+                            </div>
+                            <div class="product-info">
+                                <h3>EVA</h3>
+                                <p>优异的柔韧性和弹性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="general">
+                            <div class="product-image">
+                                <img src="images/products/gpps.jpg" alt="GPPS">
+                            </div>
+                            <div class="product-info">
+                                <h3>GPPS</h3>
+                                <p>高透明度、良好的加工性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="general">
+                            <div class="product-image">
+                                <img src="images/products/hdpe.jpg" alt="HDPE">
+                            </div>
+                            <div class="product-info">
+                                <h3>HDPE</h3>
+                                <p>高密度聚乙烯，优异的机械性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="general">
+                            <div class="product-image">
+                                <img src="images/products/hips.jpg" alt="HIPS">
+                            </div>
+                            <div class="product-info">
+                                <h3>HIPS</h3>
+                                <p>高抗冲聚苯乙烯，良好的加工性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="special">
+                            <div class="product-image">
+                                <img src="images/products/lcp.jpg" alt="LCP">
+                            </div>
+                            <div class="product-info">
+                                <h3>LCP</h3>
+                                <p>液晶聚合物，优异的耐热性和尺寸稳定性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="general">
+                            <div class="product-image">
+                                <img src="images/products/lldpe.jpg" alt="LLDPE">
+                            </div>
+                            <div class="product-info">
+                                <h3>LLDPE</h3>
+                                <p>线性低密度聚乙烯，优异的柔韧性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="special">
+                            <div class="product-image">
+                                <img src="images/products/mbs.jpg" alt="MES">
+                            </div>
+                            <div class="product-info">
+                                <h3>MBS</h3>
+                                <p>特殊工程塑料，优异的耐热性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="general">
+                            <div class="product-image">
+                                <img src="images/products/ms.jpg" alt="MS">
+                            </div>
+                            <div class="product-info">
+                                <h3>MS</h3>
+                                <p>甲基丙烯酸甲酯-苯乙烯共聚物</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pa12.jpg" alt="PA12">
+                            </div>
+                            <div class="product-info">
+                                <h3>PA12</h3>
+                                <p>尼龙12，优异的耐油性和柔韧性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pa6.jpg" alt="PA6">
+                            </div>
+                            <div class="product-info">
+                                <h3>PA6</h3>
+                                <p>尼龙6，优异的机械性能和耐磨性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pa46.jpg" alt="PA46">
+                            </div>
+                            <div class="product-info">
+                                <h3>PA46</h3>
+                                <p>尼龙46，高耐热性和机械强度</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pa66.jpg" alt="PA66">
+                            </div>
+                            <div class="product-info">
+                                <h3>PA66</h3>
+                                <p>尼龙66，优异的机械性能和耐热性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pa612.jpg" alt="PA612">
+                            </div>
+                            <div class="product-info">
+                                <h3>PA612</h3>
+                                <p>尼龙612，优异的耐油性和尺寸稳定性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pbt.jpg" alt="PBT">
+                            </div>
+                            <div class="product-info">
+                                <h3>PBT</h3>
+                                <p>聚对苯二甲酸丁二醇酯，优异的电气性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pc-abs.jpg" alt="PC/ABS">
+                            </div>
+                            <div class="product-info">
+                                <h3>PC/ABS</h3>
+                                <p>聚碳酸酯/ABS合金，优异的综合性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="special">
+                            <div class="product-image">
+                                <img src="images/products/pei.jpg" alt="PEI">
+                            </div>
+                            <div class="product-info">
+                                <h3>PEI</h3>
+                                <p>聚醚酰亚胺，优异的耐热性和机械性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pet.jpg" alt="PET">
+                            </div>
+                            <div class="product-info">
+                                <h3>PET</h3>
+                                <p>聚对苯二甲酸乙二醇酯，优异的机械性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/petg.jpg" alt="PETG">
+                            </div>
+                            <div class="product-info">
+                                <h3>PETG</h3>
+                                <p>改性PET，优异的透明度和加工性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pmma.jpg" alt="PMMA">
+                            </div>
+                            <div class="product-info">
+                                <h3>PMMA</h3>
+                                <p>聚甲基丙烯酸甲酯，优异的透明度和耐候性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="engineering">
+                            <div class="product-image">
+                                <img src="images/products/pom.jpg" alt="POM">
+                            </div>
+                            <div class="product-info">
+                                <h3>POM</h3>
+                                <p>聚甲醛，优异的耐磨性和机械性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="general">
+                            <div class="product-image">
+                                <img src="images/products/pp.jpg" alt="PP">
+                            </div>
+                            <div class="product-info">
+                                <h3>PP</h3>
+                                <p>聚丙烯，轻质、耐化学性好</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="special">
+                            <div class="product-image">
+                                <img src="images/products/peek.jpg" alt="PEEK">
+                            </div>
+                            <div class="product-info">
+                                <h3>PEEK</h3>
+                                <p>聚醚醚酮，优异的耐热性和机械性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="special">
+                            <div class="product-image">
+                                <img src="images/products/pps.jpg" alt="PPS">
+                            </div>
+                            <div class="product-info">
+                                <h3>PPS</h3>
+                                <p>聚苯硫醚，优异的耐热性和化学稳定性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="elastomer">
+                            <div class="product-image">
+                                <img src="images/products/sbc.jpg" alt="SBC">
+                            </div>
+                            <div class="product-info">
+                                <h3>SBC</h3>
+                                <p>苯乙烯嵌段共聚物，优异的弹性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="elastomer">
+                            <div class="product-image">
+                                <img src="images/products/tpe.jpg" alt="TPE">
+                            </div>
+                            <div class="product-info">
+                                <h3>TPE</h3>
+                                <p>热塑性弹性体，兼具橡胶的弹性和塑料的加工性能</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="elastomer">
+                            <div class="product-image">
+                                <img src="images/products/tpu.jpg" alt="TPU">
+                            </div>
+                            <div class="product-info">
+                                <h3>TPU</h3>
+                                <p>热塑性聚氨酯，优异的耐磨性和弹性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="elastomer">
+                            <div class="product-image">
+                                <img src="images/products/tpv.jpg" alt="TPV">
+                            </div>
+                            <div class="product-info">
+                                <h3>TPV</h3>
+                                <p>热塑性硫化橡胶，优异的耐热性和弹性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+
+                        <div class="product-item" data-category="elastomer">
+                            <div class="product-image">
+                                <img src="images/products/tpee.jpg" alt="TPEE">
+                            </div>
+                            <div class="product-info">
+                                <h3>TPEE</h3>
+                                <p>热塑性聚酯弹性体，优异的机械性能和弹性</p>
+                                <a href="#" class="btn-detail">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品咨询 -->
+    <section class="product-inquiry">
+        <div class="container">
+            <h2 class="section-title">产品咨询</h2>
+            <form class="inquiry-form">
+                <div class="form-group">
+                    <input type="text" placeholder="您的姓名" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="电子邮箱" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="联系电话" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="请详细描述您的需求" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">提交咨询</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 行业协会/展会LOGO区 -->
+    <div class="industry-logos">
+        <div class="container">
+            <div class="industry-logos-row">
+                <img src="images/industry/hk-logos.png" alt="香港行业协会与展会LOGO">
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>联系我们</h3>
+                    <p>地址：香港九龙尖沙咀加拿芬道20号加拿芬广场10楼1006室</p>
+                    <p>Hong Kong Head Office:</p>
+                    <p>Unit 1006, 10/F, Carnarvon Plaza, 20 Carnarvon Street, Tsimshatsui, Kowloon, Hong Kong</p>
+                    <p>电话：+852 3626 4683 / +852 3011 9225</p>
+                    <p>邮箱：leo@wzint.com</p>
+                </div>
+                <div class="footer-qrcode">
+                    <img src="images/qrcode.jpg" alt="企业二维码">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 稳卓国际贸易有限公司 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
